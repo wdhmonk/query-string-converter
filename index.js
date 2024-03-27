@@ -9,7 +9,7 @@ const newURL =
 
 const main = async () => {
   const data = await convertToJSON(url);
-console.log(data);
+  console.log(data);
   await PostAPIData(data);
 };
 

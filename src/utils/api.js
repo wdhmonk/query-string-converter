@@ -14,6 +14,7 @@ const PostAPIData = async (data) => {
       resolve(response);
     } catch (error) {
       reject(error);
+      console.log(error);
     }
   });
 };
